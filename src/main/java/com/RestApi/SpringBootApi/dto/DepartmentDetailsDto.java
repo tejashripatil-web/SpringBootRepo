@@ -1,0 +1,27 @@
+package com.RestApi.SpringBootApi.dto;
+
+import javax.persistence.Column;
+
+public class DepartmentDetailsDto {
+	
+    private long dept_id;
+	
+	private String dept_name;
+
+	public long getDept_id() {
+		return dept_id;
+	}
+
+	public void setDept_id(long dept_id) {
+		this.dept_id = dept_id;
+	}
+
+	public String getDept_name() {
+		return dept_name;
+	}
+
+	public void setDept_name(String dept_name) {
+		this.dept_name = dept_name;
+	}
+	
+}
